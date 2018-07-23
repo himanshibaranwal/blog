@@ -1,0 +1,464 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* You can add global styles to this file, and also import other style files */
+
+.form-control {
+    width: 60%;
+    text-align: center;
+}
+
+.btn {
+    width: 40%;
+}
+
+.top {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.top1 {
+    padding-top: 5%;
+}
+
+footer {
+    color: #797373;
+    margin-top: 3%;
+}
+
+.form-bg {
+    margin: 2%;
+    width: 90%;
+    height: 400px;
+    background-color: azure;
+}
+
+.login-bg {
+    background-color: #e6e5e5;
+    height: 450px;
+    width: 85%;
+    margin-top: 10px;
+    border-radius: 5%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.top {
+    padding-top: 8%;
+}
+
+.form_bg {
+    width: 90%;
+    height: 70%;
+    padding: 3%;
+    margin: 0% 5% 5% 5%;
+    background-color: antiquewhite;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.menu_bg {
+    background: black;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: +999;
+}
+
+input {
+    margin-left: 20%;
+}
+
+.background-color {
+    background-color: rgba(170, 168, 168, .09);
+    border-bottom: 1px solid #ebebeb
+}
+
+.sidebar-btn {
+    display: inline-block;
+    width: 40px;
+    height: 100%;
+    padding: 20px 13px
+}
+
+.sidebar-menu>li>a.sidebar-joinus {
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+    font-weight: 600;
+    padding: 7px 10px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #27ae60;
+    color: #fff
+}
+
+.sidebar-menu>li>a.sidebar-joinus:focus,
+.sidebar-menu>li>a.sidebar-joinus:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.sidebar-menu {
+    padding: 10px 25px 15px 25px
+}
+
+.sidebar-joinus-wrapper {
+    margin-bottom: 20px
+}
+
+.sidebar-menu>li>a.sidebar-login {
+    display: inline;
+    color: #0c8cc4;
+    font-weight: 600
+}
+
+.sidebar-menu>li>a.sidebar-login:focus,
+.sidebar-menu>li>a.sidebar-login:hover {
+    color: #0c8cc4;
+    text-decoration: none
+}
+
+.sidebar-menu {
+    list-style: none
+}
+
+.sidebar-image {
+    margin-bottom: 13px
+}
+
+.sidebar-txt {
+    margin-bottom: 20px
+}
+
+.sidebar-details {
+    margin-bottom: 19px
+}
+
+.sidebar-login-wrapper {
+    margin-top: 16px
+}
+
+.sidebar-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #f0f0f0
+}
+
+.sidebar-menu>li>b {
+    font-weight: 600
+}
+
+.sidebar-menu>li>img {
+    border-radius: 2.5px
+}
+
+.sidebar-menu>li>span {
+    display: block;
+    color: #999;
+    width: 195px
+}
+
+.sidebar-menu>li>span>a {
+    font-weight: 600;
+    color: #999
+}
+
+.sidebar-menu>li>span>a:focus,
+.sidebar-menu>li>span>a:hover {
+    text-decoration: none;
+    color: #999
+}
+
+.sidebar-menu>li>a {
+    display: block;
+    color: #000;
+    padding: 5px 0
+}
+
+.sidebar-menu>li>a:focus,
+.sidebar-menu>li>a:hover {
+    text-decoration: none
+}
+
+.sidebar-menu>li input[type=submit] {
+    display: block;
+    padding: 5px 0;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    outline: 0;
+    border: 0;
+    background-color: #f7f7f7;
+    color: #000;
+    width: 100%;
+    text-align: left
+}
+
+.sidebar {
+    position: fixed;
+    z-index: 2;
+    height: 100%;
+    width: 240px;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    color: #000;
+    background-color: #fff;
+    -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
+    transition: opacity .5s ease, -webkit-transform .5s ease;
+    transition: transform .5s ease, opacity .5s ease;
+    transition: transform .5s ease, opacity .5s ease, -webkit-transform .5s ease;
+    -webkit-transform: translate(-100%, 0) translate3d(-100%, 0, 0);
+    transform: translate(-100%, 0) translate3d(-100%, 0, 0)
+}
+
+.sidebar.show {
+    overflow-y: auto;
+    overflow-x: hidden;
+    opacity: 1;
+    -webkit-transform: translate(0, 0) translate3d(0, 0, 0);
+    transform: translate(0, 0) translate3d(0, 0, 0)
+}
+
+.sidebar-overlay {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, .4);
+    visibility: hidden;
+    -webkit-transition: opacity .5s ease, visibility .5s ease;
+    transition: opacity .5s ease, visibility .5s ease
+}
+
+.sidebar-overlay.show {
+    opacity: 1;
+    visibility: visible
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #080808
+}
+
+.header-nav .dropdown-menu .divider {
+    background-color: #f0f0f0;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.sidebar-menu>li>a.sub-li {
+    color: #757575
+}
+
+@media screen and (min-width:992px) {
+    .header-top {
+        box-shadow: none
+    }
+    .header .logo {
+        padding: 0px;
+        text-align: left
+    }
+    .header-nav .dropdown-menu {
+        border: 0
+    }
+    .header-nav .dropdown-menu.left {
+        left: 0
+    }
+    .header-nav .dropdown-menu .divider {
+        background-color: #f0f0f0;
+        margin-left: 20px;
+        margin-right: 20px
+    }
+    .header-nav .dropdown-menu>li>a {
+        padding: 8px 20px;
+        font-size: 13px;
+        color: #000
+    }
+    .header-nav .dropdown-menu>li>span {
+        display: block;
+        color: #999
+    }
+    .header-nav .dropdown-menu>li>span>a {
+        font-weight: 600;
+        color: #999
+    }
+    .header-nav .dropdown-menu>li>span>a:focus,
+    .header-nav .dropdown-menu>li>span>a:hover {
+        text-decoration: none;
+        color: #999
+    }
+    .header-nav .dropdown-menu>li input[type=submit] {
+        display: block;
+        padding: 8px 20px;
+        font-size: 13px;
+        clear: both;
+        font-weight: 400;
+        line-height: 1.42857143;
+        white-space: nowrap;
+        outline: 0;
+        border: 0;
+        background-color: #fff;
+        color: #000;
+        width: 100%;
+        text-align: left
+    }
+    .header-nav .dropdown-menu>li input[type=submit]:focus,
+    .header-nav .dropdown-menu>li input[type=submit]:hover {
+        background-color: #f5f5f5
+    }
+    .header-nav.nav-pills>li>a {
+        color: white;
+        height: 46px;
+        padding: 13px 13px;
+        font-size: 13px;
+        font-weight: 600;
+        border-radius: 0
+    }
+    .header-nav.nav-pills>li.active>a {
+        color: #000;
+        background-color: inherit;
+        border-bottom: 3px solid #0c8cc4
+    }
+    .header-nav.nav-pills>li.active>a:focus,
+    .header-nav.nav-pills>li.active>a:hover {
+        color: #000;
+        background-color: #eee
+    }
+    .header-nav.nav-pills>li>a.habba,
+    .header-nav.nav-pills>li>a.sbm-link {
+        color: #0c8cc4
+    }
+    .navbar-left {
+        float: left!important
+    }
+    .navbar-right {
+        float: right!important;
+        margin-right: -15px
+    }
+    .navbar-right~.navbar-right {
+        margin-right: 0
+    }
+    .header-nav.nav-pills>li>a.header-joinus {
+        height: 32px;
+        padding: 6px 15px;
+        margin: 14px 0;
+        border-radius: 4px;
+        background-color: #27ae60;
+        color: #fff;
+    }
+}
+
+@media(max-width:767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #777
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #333;
+        background-color: transparent
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+        color: #555;
+        background-color: #e7e7e7
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover {
+        color: #ccc;
+        background-color: transparent
+    }
+}
+
+.panel-heading>.dropdown .dropdown-toggle {
+    color: inherit
+}
+
+.header-nav .dropdown-menu {
+    border: 0
+}
+
+.header-nav .dropdown-menu.left {
+    left: 0
+}
+
+.header-nav .dropdown-menu .divider {
+    background-color: #f0f0f0;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.header-nav .dropdown-menu>li>a {
+    padding: 8px 20px;
+    font-size: 13px;
+    color: #000
+}
+
+.header-nav .dropdown-menu>li>span {
+    display: block;
+    color: #999
+}
+
+.header-nav .dropdown-menu>li>span>a {
+    font-weight: 600;
+    color: #999
+}
+
+.header-nav .dropdown-menu>li>span>a:focus,
+.header-nav .dropdown-menu>li>span>a:hover {
+    text-decoration: none;
+    color: #999
+}
+
+.header-nav .dropdown-menu>li input[type=submit] {
+    display: block;
+    padding: 8px 20px;
+    font-size: 13px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    outline: 0;
+    border: 0;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    text-align: left
+}
+
+.header-nav .dropdown-menu>li input[type=submit]:focus,
+.header-nav .dropdown-menu>li input[type=submit]:hover {
+    background-color: #f5f5f5
+}
+
+.navbar-left {
+    margin-top: 20px;
+}
+
+.logo-span {
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: -40px;
+    margin-right: 100px;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    color: #27ae60;
+    padding: 30px 13px;
+    font-size: 1em;
+}
+
+a {
+    padding-right: 10px;
+    color: #f4f5f7;
+}

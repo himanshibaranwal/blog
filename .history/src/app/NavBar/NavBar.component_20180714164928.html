@@ -1,0 +1,44 @@
+<div class="container-fluid">
+    <div class="row head_footer">
+        <div class="col-sm-2">
+            <h1>Logo</h1>
+            <!--Logo-->
+        </div>
+        <div class="col-sm-6">
+            <h1 class="Nest-header">Nest</h1>
+        </div>
+        <div class="col-sm-4" style="text-align:right;">
+            <a routerLink="./JoinUs"><button type="input" >Join Us</button></a>
+            <a routerLink="./login"><button type="input" class="btn btn-xs button_nav">LogIn</button></a>
+            <!--LogIn-->
+        </div>
+    </div>
+
+    <div class="menu_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <ul class="header-nav nav nav-pills navbar-left">
+                    <li role="presentation">
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-success dropdown-toggle donate" data-toggle="dropdown">Donate</button>
+                            <div class="dropdown-menu">
+                                <span class="dropdown-item">Donate to Fund</span>
+                                <span class="dropdown-item">Quick donate</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li role="presentation">
+                        <a routerLink="#">About Us</a>
+                    </li>
+                    <li role="presentation">
+                        <a routerLink="./ImpactStories">Impact Stories</a>
+                    </li>
+                    <li role="presentation">
+                        <a routerLink="./DonateAquaFund" title="Support AquaFund">Donate to AquaFund</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
